@@ -1,0 +1,11 @@
+def isPalindrome(s):
+	return s == s[::-1]
+# Here in this code we have to check whether number is palindrome or not 
+s = "malayalam"
+ans = isPalindrome(s)
+
+if ans:
+	print("Yes")
+else:
+	print("No")
+# The ans is yes as the string is palindrome 
