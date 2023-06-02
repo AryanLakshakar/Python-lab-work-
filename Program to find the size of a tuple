@@ -1,0 +1,5 @@
+a = ("Aryan", "python", "tuple")
+b = ("programs", "Coding") 
+# Here we are checking size of a tuple using len function
+print("Size of the tuple is", len(a))
+print("Size of the tuple is", len(b))
